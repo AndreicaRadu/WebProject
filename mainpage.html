@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">About the Community</a></li>
+                <li><a href="mainpage.html">Main page</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="about-title">
+            <h1>Main page</h1>
+        </div>
+
+        <div>
+            <input type="text" class="form" name="name" id="formName" placeholder="Title">
+        </div>
+        <div>
+            <input type="text" class="form" name="url" id="formUrl" placeholder="Image">
+        </div>
+        <div>
+            <input type="text" class="form" name="txt" id="formtxt" placeholder="Text">
+            <button type="button" class="btn" id="addButton">Add</button>
+            <button type="button" class="btn" id="updateButton" disabled>Update</button>
+        </div>
+
+        <div id="image-list" class="image-list"></div>
+
+        <script src="script.js"></script>
+    </div>
+</body>

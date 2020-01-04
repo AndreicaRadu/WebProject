@@ -1,0 +1,204 @@
+/* CSS Variables */
+:root {
+    --primary: #fff;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px darkblue;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', 'Open Sans', 'Lato';
+    color: var(--dark);
+}
+
+.mainpage-h3{
+    text-transform: none;
+    size: 20px;
+    font: 'Open Sans';
+    width: 75ch;
+}
+.mainpage-span{
+    font: 'Open Sans' , serif;
+    font-size: 40px;
+}
+.mainpage-img{
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.image-list{
+    column-count: 2;
+	grid-auto-flow: column;
+}
+.script-btn {
+    background: var(--dark);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 3px;
+}
+.btn {
+    background: var(--dark);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+	text-decoration: none;
+    border-radius: 50%;
+}
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.img1{
+    margin-top: 20px;
+    width: 50px;
+    height: auto;
+}
+/* Navigation */
+.main-nav ul {
+    display: grid;
+    grid-gap: 45px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-nav a {
+    background: var(--primary);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+	box-shadow: var(--shadow);
+	border-radius: 7px;
+}
+
+.main-nav a:hover {
+    background: var(--dark);
+    color: var(--light);
+}
+
+body {
+	margin: 15px;
+	padding: 0;
+	background: lightblue;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: #3B3B3B;
+}
+
+h1, h2{
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	font-weight: normal;
+	color: black;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	letter-spacing: 1px;
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+	font-family: 'Open Sans';
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: #4C5C37;
+}
+#header {
+	clear: both;
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#wrapper
+{
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+
+#page {
+	overflow: hidden;
+	width: 1000px;
+	margin: 0px auto;
+	padding: 70px 50px 30px 50px;
+	background: #FFFFFF;
+}
+#content {
+	float: left;
+	width: 620px;
+}
+
+.post {
+	margin-bottom: 15px;
+}
+
+.post .title {
+	height: 38px;
+	margin-bottom: 10px;
+	padding: 12px 0 0 0px;
+	font-size: 28px;
+}
+
+.post .title a {
+	border: none;
+	color: #3D2729;
+}
+
+.post .meta {
+	margin-bottom: 30px;
+	padding: 5px 0px 15px 0px;
+	text-align: left;
+	font-weight: normal;
+}
+
+.post .meta .date {
+	float: left;
+}
+
+.post .meta .posted {
+	float: right;
+}
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+#sidebar {
+	float: right;
+	width:300px;
+	margin: 0px;
+	color: #787878;
+}
+
+#sidebar li li {
+	border-bottom: 1px solid #CACACA;
+	margin: 0px 0px;
+	padding: 10px 0px;
+	border-left: none;
+	list-style: inside circle;
+}
